@@ -805,10 +805,6 @@ body {
   height: 100vh;
 }
 
-.w-28{
-  width: 7rem;
-}
-
 .w-full{
   width: 100%;
 }
@@ -1972,11 +1968,6 @@ body {
   line-height: 1rem;
 }
 
-.text-2xl{
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .font-bold{
   font-weight: 700;
 }
@@ -2425,6 +2416,22 @@ body {
   font-weight: 700;
 }
 
+.hover\:opacity-30:hover{
+  opacity: 0.3;
+}
+
+.hover\:opacity-70:hover{
+  opacity: 0.7;
+}
+
+.hover\:opacity-50:hover{
+  opacity: 0.5;
+}
+
+.hover\:opacity-60:hover{
+  opacity: 0.6;
+}
+
 .before\:hover\:text-center:hover::before{
   content: var(--tw-content);
   text-align: center;
@@ -2460,38 +2467,6 @@ body {
 
   .lg\:w-4\/12{
     width: 33.333333%;
-  }
-
-  .lg\:w-3\/5{
-    width: 60%;
-  }
-
-  .lg\:w-2\/5{
-    width: 40%;
-  }
-
-  .lg\:w-6{
-    width: 1.5rem;
-  }
-
-  .lg\:w-60{
-    width: 15rem;
-  }
-
-  .lg\:w-9{
-    width: 2.25rem;
-  }
-
-  .lg\:w-96{
-    width: 24rem;
-  }
-
-  .lg\:w-1\/3{
-    width: 33.333333%;
-  }
-
-  .lg\:w-5\/12{
-    width: 41.666667%;
   }
 
   .lg\:px-0{

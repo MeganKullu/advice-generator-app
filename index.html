@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
@@ -14,8 +14,8 @@
    <div class="h-screen bg-dark-blue flex flex-col justify-center items-center px-3 lg:px-0">
 
     <main class="grid place-content-center text-center w-full lg:w-4/12 rounded-xl bg-dark-grayish-blue py-6" >
-      <div class="my-4 text-xs text-neon-green">ADVICE <span id="adviceNumber">#117</span></div>
-      <div class="mb-8 text-xl lg:text-2xl text-white font-bold px-10" id="advice">"It is easy to sit up and take notice, what's difficult is getting up and taking action."</div>
+      <div class="my-4 text-xs text-neon-green">ADVICE #<span id="adviceNumber">117</span></div>
+      <div class="mb-8 text-xl lg:text-2xl text-white font-bold px-10" id="adviceInput">"It is easy to sit up and take notice, what's difficult is getting up and taking action."</div>
       <div class="hidden lg:grid place-content-center mb-6 ">
          <div><svg width="444" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="#4F5D74" d="M0 8h196v1H0zm248 0h196v1H248z"/><g transform="translate(212)" fill="#CEE3E9"><rect width="6" height="16" rx="3"/><rect x="14" width="6" height="16" rx="3"/></g></g></svg></div>
       </div> 
@@ -24,14 +24,16 @@
      </div>     
     </main>
 
-    <section class="-mt-6 mb-6 border-none rounded-full p-3 bg-neon-green flex flex-col justify-center items-center">  
-      <button><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M20 0H4a4.005 4.005 0 0 0-4 4v16a4.005 4.005 0 0 0 4 4h16a4.005 4.005 0 0 0 4-4V4a4.005 4.005 0 0 0-4-4ZM7.5 18a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm0-9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm4.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm4.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm0-9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Z" fill="#202733"/></svg></button>
+    <section class="-mt-6 mb-6 border-none rounded-full hover:opacity-60 p-3 bg-neon-green flex flex-col justify-center items-center">  
+      <button id="myButton"><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M20 0H4a4.005 4.005 0 0 0-4 4v16a4.005 4.005 0 0 0 4 4h16a4.005 4.005 0 0 0 4-4V4a4.005 4.005 0 0 0-4-4ZM7.5 18a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm0-9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm4.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm4.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm0-9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Z" fill="#202733"/></svg></button>
     </section>
 
     <footer class="attribution text-center">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="https://github.com/MeganKullu" class="text-white">Megan Kullu</a>.
     </footer>
+
+    <script src="./script.js"></script>
 
   </div>
 </body>
