@@ -2416,18 +2416,6 @@ body {
   font-weight: 700;
 }
 
-.hover\:opacity-30:hover{
-  opacity: 0.3;
-}
-
-.hover\:opacity-70:hover{
-  opacity: 0.7;
-}
-
-.hover\:opacity-50:hover{
-  opacity: 0.5;
-}
-
 .hover\:opacity-60:hover{
   opacity: 0.6;
 }
@@ -2456,6 +2444,12 @@ body {
   }
 }
 
+@media (min-width: 768px){
+  .md\:max-w-sm{
+    max-width: 24rem;
+  }
+}
+
 @media (min-width: 1024px){
   .lg\:grid{
     display: grid;
@@ -2465,8 +2459,8 @@ body {
     display: none;
   }
 
-  .lg\:w-4\/12{
-    width: 33.333333%;
+  .lg\:max-w-md{
+    max-width: 28rem;
   }
 
   .lg\:px-0{
@@ -2485,5 +2479,17 @@ body {
     .dark\:lg\:hover\:\[paint-order\:markers\]:hover{
       paint-order: markers;
     }
+  }
+}
+
+@media (min-width: 1280px){
+  .xl\:max-w-lg{
+    max-width: 32rem;
+  }
+}
+
+@media (min-width: 1536px){
+  .\32xl\:max-w-xl{
+    max-width: 36rem;
   }
 }
